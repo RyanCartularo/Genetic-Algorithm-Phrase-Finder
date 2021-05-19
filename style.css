@@ -1,0 +1,22 @@
+body {
+  background: rgb(230,230,230);
+  background: linear-gradient(90deg, rgba(201,201,201,1) 0%, rgba(206,188,209,1) 50%, rgba(0,125,255,1) 100%);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Poppnis", sans-serif;
+  margin: 0;
+}
+
+#best {
+  background-color: rgb(197, 197, 197);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Poppnis", sans-serif;
+  margin: 0;
+}
