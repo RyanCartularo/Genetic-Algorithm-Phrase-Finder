@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
+    <meta charset="utf-8" />
+    <meta name="description"     content="Web site used to demonstrate a gentic algorithm"/>
+    <link rel="stylesheet"   href="style.css">
+    
+
+    <title>Phrase Finder</title>
+
+    <style>
+      
+      .stats, .all, .best, .title{
+        font-family: "Times New Roman";
+      }
+
+      .best {
+        font-size: 70px;
+      }
+
+      .stats {
+        font-size: 50px;
+        display: inline-block;
+        width: 450px;
+        height: 300px;
+        padding: 5px;
+        border-radius: 25px;
+        background-color: rgb(143, 143, 143, .8); 
+        box-shadow: 0 0 25px 0 rgba(0,0,0, .25);
+      }  
+
+      .title {
+        font-size: 50px;
+        position: absolute;
+        left: 35%;
+      }
+      .all {
+        overflow: visible;
+      }
+    </style>
+    
+  </head>
+  <body>
+<!--
+    <input type="text" id="prompt" value="Input Your Text Here...">
+    
+  
+    <button onclick="inputter()">Go</button>
+-->
+    <script src="DNA.js"></script>
+    <script src="Population.js"></script>
+    <script src="sketch.js"></script>
+<!--
+    <p id="target"></p>
+-->
+  </body>
+</html>
